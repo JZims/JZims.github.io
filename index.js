@@ -51,7 +51,7 @@ function handleFormsubmit(event){
 	const contactEmail = event.target.email.value
 	const contactMessage = event.target.message.value
 
-	window.open(`mailto:JZimmsCodes@outlook.com?subject=${contactSubject}&body= Hey Josh, it's ${contactName}. ${contactMessage}&from=${contactEmail}`);
+	window.open(`mailto:JZimmsCodes@outlook.com?subject=${contactSubject}&body= Hey Josh, it's ${contactName}. ${contactMessage}`);
 
 
 }
