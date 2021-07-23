@@ -36,6 +36,10 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'green.css'
 	}
 
+	if(mode == 'tomato'){
+		document.getElementById('theme-style').href = 'tomato.css'
+	}
+
 	if(mode == 'purple'){
 		document.getElementById('theme-style').href = 'purple.css'
 	}

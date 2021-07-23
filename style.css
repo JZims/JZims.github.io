@@ -113,7 +113,7 @@ h6 { font-size: 16px;}
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: var(--mainColor);
+	background-color: var(--navColor);
 }
 
 #navigation a{
@@ -219,8 +219,12 @@ h6 { font-size: 16px;}
 	background-color: #78866b;
 }
 
+#tomato-mode{
+	background-color: #e9584d;
+}
+
 #purple-mode{
-	background-color: #7E4C74;
+	background-color: #9351be9d;
 }
 
 #settings-note{
@@ -307,6 +311,11 @@ h6 { font-size: 16px;}
 	text-align: center;
 }
 
+.social-links a {
+	color: #cccecf;
+
+}
+
 #social_img{
 	width: 100%;
 }
@@ -357,7 +366,7 @@ h6 { font-size: 16px;}
 	border: 1px solid var(--borderColor);
 	padding: 15px;
 	border-radius: 5px;
-	background-color: var(--mainColor);
+	background-color: var(--formColor);
 	margin-bottom: 50px;
 
 }
