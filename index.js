@@ -3,7 +3,7 @@
 let theme = localStorage.getItem('theme')
 
 if(theme == null){
-	setTheme('light')
+	setTheme('dark')
 }else{
 	setTheme(theme)
 }
@@ -28,20 +28,8 @@ function setTheme(mode){
 		document.getElementById('theme-style').href = 'style.css'
 	}
 
-	if(mode == 'blue'){
-		document.getElementById('theme-style').href = 'blue.css'
-	}
-
-	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'green.css'
-	}
-
-	if(mode == 'tomato'){
-		document.getElementById('theme-style').href = 'tomato.css'
-	}
-
-	if(mode == 'purple'){
-		document.getElementById('theme-style').href = 'purple.css'
+	if(mode == 'dark'){
+		document.getElementById('theme-style').href = 'dark.css'
 	}
 
 	localStorage.setItem('theme', mode)
